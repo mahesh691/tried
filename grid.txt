@@ -1,0 +1,10 @@
+
+cd C:\Users\mahes\OneDrive\Desktop
+java -jar selenium-server-standalone-3.141.0.jar -role hub
+
+http://192.168.1.4:4444/grid/register/
+
+http://192.168.1.4:4444/wd/hub
+
+
+------>java -jar -Dwebdriver.gecko.driver=C:\Users\mahes\OneDrive\Desktop\geckodriver.exe selenium-server-standalone-3.141.0.jar -role webdriver -hub http://192.168.1.4:4444/grid/register/ -port 5555
