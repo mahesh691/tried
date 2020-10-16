@@ -1,4 +1,6 @@
 
+grid concept
+
 cd C:\Users\mahes\OneDrive\Desktop
 java -jar selenium-server-standalone-3.141.0.jar -role hub
 
